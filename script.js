@@ -1,3 +1,6 @@
+const button = document.querySelector("button")
+button.addEventListener("click",()=>{console.log("this")})
+
 var list1 = [];
 		var list2 = [];
 		var list3 = [];
