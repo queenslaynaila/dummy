@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styl.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <label for="fdate">DATE</label>
+      <input type="date" name="fname" id="date" />
+      <label for="production">DAYS PRODUCTION</label>
+      <input type="number" name="production" id="production" />
+      <label for="priceperlitre">PRICE PER LITRE</label>
+      <input type="number" name="priceperlitre" id="price" />
+      <label for="amount">AMOUNT</label>
+      <input type="number" name="amount" id="amount" />
+      <input
+        type="button"
+        name="button"
+        id="btn"
+        value="Add"
+        onclick="AddRow()"
+      />
+    </div>
+
+    <table id="show">
+      <tr>
+        <th>DATE</th>
+        <th>DAYS PRODUCTION</th>
+        <th>PRICE PER LITRE</th>
+        <th>AMOUNT</th>
+      </tr>
+    </table>
+
+    <script href="script.js"></script>
+  </body>
+</html>

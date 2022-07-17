@@ -1,0 +1,36 @@
+.container {
+  border-radius: 5px;
+  background-color: lightgrey;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+#btn {
+  cursor: pointer;
+  background-color: darkgrey;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 50px;
+}
